@@ -1,57 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
   <style>
     body {
       background-image: url("https://geocities.restorativland.org/Area51/1269/images/space.gif");
       background-repeat: repeat;
-      background-size: auto;
       margin: 0;
       font-family: Arial, sans-serif;
       text-align: center;
     }
 
-    /* Gap AFTER your content */
-    .bottom-gap {
-      height: 100vh;
-    }
-
     .content {
       padding-top: 40px;
     }
+
+    .bottom-gap {
+      height: 120vh;
+    }
+
+    .swf-container {
+      padding: 40px;
+      background: rgba(0,0,0,0.6);
+      color: white;
+    }
   </style>
 </head>
-
 
 <body>
 
   <div class="content">
     <audio controls>
-    <source src="alien-confirmed.wav" type="audio/mpeg">
-  </audio>
+      <source src="alien-confirmed.wav" type="audio/wav">
+    </audio>
+
     <img src="https://web.archive.org/web/20031108091257if_/http://www.geocities.com/lord_visionary/alien.gif">
 
-    <h1 style="color:white;">
-      <b>have you ever wonderd if aliens r real....</b>
-    </h1>
-
-    <h1 style="color:rgb(0, 197, 16);">
-      <b>welllll there is proof scroll below</b>
-    </h1>
+    <h1 style="color:white;">have you ever wonderd if aliens r real....</h1>
+    <h1 style="color:rgb(0, 197, 16);">welllll there is proof scroll below</h1>
   </div>
 
-  <!-- This forces scrolling down -->
   <div class="bottom-gap"></div>
 
-  <!-- Hidden "proof" section -->
-   <h2 style="color:rgb(0, 197, 16);">
-      <b>look at this nonbelievers</b>
-    </h2>
-  <p>
+  <div>
+    <h2 style="color:rgb(0, 197, 16);">look at this nonbelievers</h2>
+
     <img src="https://www.sciencefriday.com/wp-content/uploads/2021/06/2-GIMBAL.2021-06-24-19_09_12.gif">
     <img src="https://i.makeagif.com/media/1-08-2018/_pSScp.gif">
     <img src="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyanAxbHk0Y3g1bHY1Nm0zMGIwejQ0ajI3c2JwMnB2c3dvaG0zZmoxbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/PApUlVfEFmZAQ/200w.gif">
-  </p>
+  </div>
+
+  <div class="swf-container">
+    <h2 style="color:rgb(0, 197, 16);">play alien hominid here ok</h2>
+
+    <object width="600" height="400" data="alien_hominid.swf">
+      <p>flash not supported</p>
+    </object>
+  </div>
 
 </body>
 </html>
